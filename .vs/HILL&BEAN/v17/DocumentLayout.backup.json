@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL-BEAN-main\\",
   "Documents": [
     {
@@ -29,6 +30,25 @@
     {
       "AbsoluteMoniker": "D:0:0:{42468B07-8C8E-401E-8117-37DEC8FE624E}|HILL\u0026BEAN.csproj|D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL-BEAN-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42468B07-8C8E-401E-8117-37DEC8FE624E}|HILL\u0026BEAN.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42468B07-8C8E-401E-8117-37DEC8FE624E}|HILL\u0026BEAN.csproj|D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42468B07-8C8E-401E-8117-37DEC8FE624E}|HILL\u0026BEAN.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42468B07-8C8E-401E-8117-37DEC8FE624E}|HILL\u0026BEAN.csproj|d:\\nhung_bai_hoc_ve_c#_winform\\hill\u0026bean\\frmgiaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{42468B07-8C8E-401E-8117-37DEC8FE624E}|HILL\u0026BEAN.csproj|solutionrelative:frmgiaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42468B07-8C8E-401E-8117-37DEC8FE624E}|HILL\u0026BEAN.csproj|D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\frmgiaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42468B07-8C8E-401E-8117-37DEC8FE624E}|HILL\u0026BEAN.csproj|solutionrelative:frmgiaodien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42468B07-8C8E-401E-8117-37DEC8FE624E}|HILL\u0026BEAN.csproj|D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{42468B07-8C8E-401E-8117-37DEC8FE624E}|HILL\u0026BEAN.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> 9a978c4f068d4732da3c60f77809364a6549c814
     }
   ],
   "DocumentGroupContainers": [
@@ -38,6 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -54,12 +75,18 @@
               "IsPinned": true
             },
             {
+=======
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+>>>>>>> 9a978c4f068d4732da3c60f77809364a6549c814
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "FrmGiaoDien.cs [Design]",
               "DocumentMoniker": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL-BEAN-main\\FrmGiaoDien.cs",
               "RelativeDocumentMoniker": "FrmGiaoDien.cs",
@@ -114,10 +141,22 @@
               "RelativeToolTip": "FrmKhoHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T02:26:07.923Z"
+=======
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:10:49.217Z",
+              "EditorCaption": ""
+>>>>>>> 9a978c4f068d4732da3c60f77809364a6549c814
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "FrmBanHang.cs [Design]",
               "DocumentMoniker": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL-BEAN-main\\FrmBanHang.cs",
               "RelativeDocumentMoniker": "FrmBanHang.cs",
@@ -125,6 +164,40 @@
               "RelativeToolTip": "FrmBanHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T16:05:10.508Z"
+=======
+              "Title": "FrmGiaoDien.cs",
+              "DocumentMoniker": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\FrmGiaoDien.cs",
+              "RelativeDocumentMoniker": "FrmGiaoDien.cs",
+              "ToolTip": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\FrmGiaoDien.cs",
+              "RelativeToolTip": "FrmGiaoDien.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAApwDQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T06:14:43.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmGiaoDien.cs [Design]",
+              "DocumentMoniker": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\FrmGiaoDien.cs",
+              "RelativeDocumentMoniker": "FrmGiaoDien.cs",
+              "ToolTip": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\FrmGiaoDien.cs [Design]",
+              "RelativeToolTip": "FrmGiaoDien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T06:07:12.028Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "D:\\Nhung_bai_hoc_ve_C#_WInform\\HILL\u0026BEAN\\FrmMain.cs [Design]",
+              "RelativeToolTip": "FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T12:41:54.708Z"
+>>>>>>> 9a978c4f068d4732da3c60f77809364a6549c814
             }
           ]
         }

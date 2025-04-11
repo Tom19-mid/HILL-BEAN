@@ -44,7 +44,11 @@ namespace HILL_BEAN
         {
             this.Hide();
 
+<<<<<<< HEAD
             FrmDangNhap FromMain = new FrmDangNhap();
+=======
+            FrmMain FromMain = new FrmMain();
+>>>>>>> 9a978c4f068d4732da3c60f77809364a6549c814
             FromMain.ShowDialog();
 
             this.Close();

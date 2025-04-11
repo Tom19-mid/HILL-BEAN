@@ -13,6 +13,7 @@ D:\Nhung_bai_hoc_ve_C#_WInform\HILL&BEAN\bin\Debug\b61fa94de9190721e7c3ece1e81ee
 D:\Nhung_bai_hoc_ve_C#_WInform\HILL&BEAN\obj\Debug\HILL_BEAN.FrmMain.resources
 D:\Nhung_bai_hoc_ve_C#_WInform\HILL&BEAN\obj\Debug\HILL_BEAN.FrmBanHang.resources
 D:\Nhung_bai_hoc_ve_C#_WInform\HILL&BEAN\obj\Debug\HILL_BEAN.FrmGiaoDien.resources
+<<<<<<< HEAD
 D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\bin\Debug\b61fa94de9190721e7c3ece1e81ee285-removebg-preview (1).png
 D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\bin\Debug\iconCoffee-removebg-preview.png
 D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\bin\Debug\iconCoffee-removebg-preview2.png
@@ -32,3 +33,5 @@ D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL&BEAN.csproj.CoreCom
 D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL&BEAN.exe
 D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL&BEAN.pdb
 D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmDangNhap.resources
+=======
+>>>>>>> 9a978c4f068d4732da3c60f77809364a6549c814

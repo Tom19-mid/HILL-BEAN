@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBanHang));
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -825,10 +826,15 @@
             this.label25.TabIndex = 119;
             this.label25.Text = "Phương thức thanh toán";
             // 
+=======
+            this.SuspendLayout();
+            // 
+>>>>>>> 9a978c4f068d4732da3c60f77809364a6549c814
             // FrmBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1373, 723);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.BtnXoa);
@@ -895,10 +901,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+=======
+            this.ClientSize = new System.Drawing.Size(1263, 610);
+            this.Name = "FrmBanHang";
+            this.Text = "FrmBanHang";
+            this.ResumeLayout(false);
+>>>>>>> 9a978c4f068d4732da3c60f77809364a6549c814
 
         }
 
         #endregion
+<<<<<<< HEAD
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
@@ -967,5 +980,7 @@
         private System.Windows.Forms.Button BtnLamMoi;
         private System.Windows.Forms.Button BtnXoa;
         private System.Windows.Forms.Label label25;
+=======
+>>>>>>> 9a978c4f068d4732da3c60f77809364a6549c814
     }
 }

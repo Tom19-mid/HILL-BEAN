@@ -16,7 +16,11 @@ namespace HILL_BEAN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new FrmKhoHang());
+=======
+            Application.Run(new FrmMain());
+>>>>>>> 9a978c4f068d4732da3c60f77809364a6549c814
         }
     }
 }
