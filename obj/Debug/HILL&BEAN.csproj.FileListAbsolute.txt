@@ -1,0 +1,60 @@
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\bin\Debug\b61fa94de9190721e7c3ece1e81ee285-removebg-preview (1).png
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\bin\Debug\iconCoffee-removebg-preview.png
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\bin\Debug\iconCoffee-removebg-preview2.png
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\bin\Debug\HILL&BEAN.exe.config
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\bin\Debug\HILL&BEAN.exe
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\bin\Debug\HILL&BEAN.pdb
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL&BEAN.csproj.AssemblyReference.cache
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmKhoHang.resources
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmDangNhap.resources
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmBanHang.resources
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmGiaoDien.resources
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmThongKeDoanhThu1.resources
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmThongKeDoanhThu2.resources
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL_BEAN.Properties.Resources.resources
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL_BEAN.ThongKeDoanhThu3.resources
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL&BEAN.csproj.GenerateResource.cache
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL&BEAN.csproj.CoreCompileInputs.cache
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL&BEAN.exe
+D:\Nhung_bai_hoc_ve_C#_WInform\HILL-BEAN-main\obj\Debug\HILL&BEAN.pdb
+D:\HILL-BEAN-main\bin\Debug\b61fa94de9190721e7c3ece1e81ee285-removebg-preview (1).png
+D:\HILL-BEAN-main\bin\Debug\iconCoffee-removebg-preview.png
+D:\HILL-BEAN-main\bin\Debug\iconCoffee-removebg-preview2.png
+D:\HILL-BEAN-main\bin\Debug\HILL&BEAN.exe.config
+D:\HILL-BEAN-main\bin\Debug\HILL&BEAN.exe
+D:\HILL-BEAN-main\bin\Debug\HILL&BEAN.pdb
+D:\HILL-BEAN-main\obj\Debug\HILL&BEAN.csproj.AssemblyReference.cache
+D:\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmKhoHang.resources
+D:\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmDangNhap.resources
+D:\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmBanHang.resources
+D:\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmGiaoDien.resources
+D:\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmThongKeDoanhThu1.resources
+D:\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmThongKeDoanhThu2.resources
+D:\HILL-BEAN-main\obj\Debug\HILL_BEAN.Properties.Resources.resources
+D:\HILL-BEAN-main\obj\Debug\HILL_BEAN.ThongKeDoanhThu3.resources
+D:\HILL-BEAN-main\obj\Debug\HILL&BEAN.csproj.GenerateResource.cache
+D:\HILL-BEAN-main\obj\Debug\HILL&BEAN.csproj.CoreCompileInputs.cache
+D:\HILL-BEAN-main\obj\Debug\HILL&BEAN.exe
+D:\HILL-BEAN-main\obj\Debug\HILL&BEAN.pdb
+D:\HILL-BEAN-main\obj\Debug\HILL_BEAN.FrmQuanLiNhanVien.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\bin\Debug\b61fa94de9190721e7c3ece1e81ee285-removebg-preview (1).png
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\bin\Debug\iconCoffee-removebg-preview.png
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\bin\Debug\iconCoffee-removebg-preview2.png
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\bin\Debug\HILL&BEAN.exe.config
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\bin\Debug\HILL&BEAN.exe
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\bin\Debug\HILL&BEAN.pdb
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL&BEAN.csproj.AssemblyReference.cache
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.FrmHoaDon.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.FrmKhoHang.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.FrmDangNhap.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.FrmBanHang.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.FrmGiaoDien.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.FrmQuanLiNhanVien.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.FrmThongKeDoanhThu1.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.FrmThongKeDoanhThu2.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.Properties.Resources.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.ThongKeDoanhThu3.resources
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL&BEAN.csproj.GenerateResource.cache
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL&BEAN.csproj.CoreCompileInputs.cache
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL&BEAN.exe
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL&BEAN.pdb
