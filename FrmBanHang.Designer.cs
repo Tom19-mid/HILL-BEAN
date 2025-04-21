@@ -115,10 +115,10 @@
             this.panel1.Controls.Add(this.GbBacXiu);
             this.panel1.Controls.Add(this.GbLatteNong);
             this.panel1.Controls.Add(this.GbCappuccinoNong);
-            this.panel1.Location = new System.Drawing.Point(12, 11);
+            this.panel1.Location = new System.Drawing.Point(3, 11);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(427, 522);
+            this.panel1.Size = new System.Drawing.Size(413, 507);
             this.panel1.TabIndex = 113;
             // 
             // GbEspresso
@@ -629,18 +629,18 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(445, 11);
+            this.dataGridView1.Location = new System.Drawing.Point(422, 11);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(887, 385);
+            this.dataGridView1.Size = new System.Drawing.Size(923, 385);
             this.dataGridView1.TabIndex = 114;
             // 
             // BtnThanhToan
             // 
             this.BtnThanhToan.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnThanhToan.Location = new System.Drawing.Point(1088, 485);
+            this.BtnThanhToan.Location = new System.Drawing.Point(1174, 485);
             this.BtnThanhToan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnThanhToan.Name = "BtnThanhToan";
             this.BtnThanhToan.Size = new System.Drawing.Size(128, 48);
@@ -656,7 +656,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Tiền mặt",
             "Chuyển khoản"});
-            this.comboBox1.Location = new System.Drawing.Point(1088, 435);
+            this.comboBox1.Location = new System.Drawing.Point(1126, 441);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(176, 29);
@@ -665,7 +665,7 @@
             // BtnLamMoi
             // 
             this.BtnLamMoi.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLamMoi.Location = new System.Drawing.Point(445, 416);
+            this.BtnLamMoi.Location = new System.Drawing.Point(417, 406);
             this.BtnLamMoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnLamMoi.Name = "BtnLamMoi";
             this.BtnLamMoi.Size = new System.Drawing.Size(128, 48);
@@ -676,7 +676,7 @@
             // BtnXoa
             // 
             this.BtnXoa.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnXoa.Location = new System.Drawing.Point(604, 416);
+            this.BtnXoa.Location = new System.Drawing.Point(572, 406);
             this.BtnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnXoa.Name = "BtnXoa";
             this.BtnXoa.Size = new System.Drawing.Size(128, 48);
@@ -688,7 +688,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(1084, 402);
+            this.label25.Location = new System.Drawing.Point(1082, 402);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(220, 21);
             this.label25.TabIndex = 119;
@@ -698,7 +698,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1337, 544);
+            this.ClientSize = new System.Drawing.Size(1352, 544);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.BtnXoa);
             this.Controls.Add(this.BtnLamMoi);

@@ -19,12 +19,33 @@ namespace HILL_BEAN
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#b9cdcb");
             currentUsername = username;
-            lblWelcome.Text = "Chào mừng " + username;
+            lblWelcome.Text = "Chào mừng";
+            lblUsername.Text = username;
+            lblUsername.Left = (lblUsername.Parent.Width - lblUsername.Width) / 2;
+            lblUsername.Top = (lblUsername.Parent.Height - lblUsername.Height) / 2;
             MakeroundPtbHillBean(PtbHillBean, 30);
-            panelBanHang.BringToFront(); // khi cần hiển thị Form con
+            panelMain.BringToFront(); // khi cần hiển thị Form con
             PtbCat.BringToFront(); // nếu muốn ảnh mèo nổi lên trên lại
             lbHowAreYou.BringToFront();
             lbXinChao.BringToFront();
+            MakepanelMain(panelMain, 20);
+        }
+
+        private void MakepanelMain(Panel panelMain, int raidus)
+        {
+            Rectangle bounds = panelMain.ClientRectangle;
+            GraphicsPath path = new GraphicsPath();
+            int diameter = raidus * 2;
+
+            path.AddArc(bounds.X, bounds.Y, diameter, diameter, 180, 90);
+            path.AddArc(bounds.Right - diameter, bounds.Y, diameter, diameter, 270, 90);
+            path.AddArc(bounds.Right - diameter, bounds.Bottom - diameter, diameter, diameter, 0, 90);
+            path.AddArc(bounds.X, bounds.Bottom - diameter, diameter, diameter, 90, 90);
+            path.CloseFigure();
+
+            panelMain.Region = new Region(path);
+
+            panelMain.Invalidate();
         }
 
         private void MakeroundPtbHillBean(PictureBox ptbHillBean, int raidus)
@@ -47,37 +68,66 @@ namespace HILL_BEAN
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
             this.Hide();
-
             FrmDangNhap FromMain = new FrmDangNhap();
             FromMain.ShowDialog();
-
             this.Close();
         }
-
-        private void btnBanHang_Click(object sender, EventArgs e)
+        private void LoadForm(Form frm)
         {
-            // Ẩn mèo và các dòng chào
+            panelMain.Controls.Clear();
+            frm.TopLevel = false;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(frm);
+            panelMain.Tag = frm;
+            frm.Show();
+        }
+        private void HideWelcomeLabels()
+        {
             PtbCat.Visible = false;
             lbXinChao.Visible = false;
             lbHowAreYou.Visible = false;
-
-            // Load form FrmBanHang vào panelMain
-            FrmBanHang frmBanHang = new FrmBanHang();
-            LoadFormCon(frmBanHang);
         }
 
-        
-        private void LoadFormCon(Form formCon)
+        // btnBanHangClick
+        private void btnBanHang_Click(object sender, EventArgs e)
         {
-            panelBanHang.Controls.Clear(); // dùng đúng tên Panel
-            formCon.TopLevel = false;
-            formCon.FormBorderStyle = FormBorderStyle.None;
-            formCon.Dock = DockStyle.Fill;
-            panelBanHang.Controls.Add(formCon);
-            panelBanHang.Tag = formCon;
-            formCon.Show();
+            HideWelcomeLabels();
+            LoadForm(new FrmBanHang());
         }
 
-      
+        // btnHoaDon
+        private void btnHoaDon_Click(object sender, EventArgs e)
+        {
+            HideWelcomeLabels();
+            LoadForm(new FrmHoaDon());
+        }
+
+        // btnNhanViem
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            HideWelcomeLabels();
+            LoadForm(new FrmQuanLiNhanVien());
+        }
+
+        // btnKhoHang
+        private void btnKhoHang_Click(object sender, EventArgs e)
+        {
+            HideWelcomeLabels();
+            LoadForm(new FrmKhoHang());
+        }
+
+        // btnThongKeDoanhThu
+        private void btnThongKeDoanhThu_Click(object sender, EventArgs e)
+        {
+            HideWelcomeLabels();
+            LoadForm(new FrmThongKeDoanhThu1());
+        }
+
+        private void btnKhuVucBan_Click(object sender, EventArgs e)
+        {
+            HideWelcomeLabels();
+            LoadForm(new FrmKhuVucBan());
+        }
     }
 }

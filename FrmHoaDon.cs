@@ -16,7 +16,7 @@ namespace HILL_BEAN
         public FrmHoaDon()
         {
             InitializeComponent();
-            this.BackColor = ColorTranslator.FromHtml("#b9cdcb");
+            this.BackColor = ColorTranslator.FromHtml("#ECEFF1");
         }
         
     }

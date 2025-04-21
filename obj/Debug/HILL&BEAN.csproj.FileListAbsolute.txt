@@ -58,3 +58,4 @@ C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\De
 C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL&BEAN.csproj.CoreCompileInputs.cache
 C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL&BEAN.exe
 C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL&BEAN.pdb
+C:\Users\tanle\Documents\Zalo Received Files\Test(1)\HILL-BEAN-main (Hoa)\obj\Debug\HILL_BEAN.FrmKhuVucBan.resources

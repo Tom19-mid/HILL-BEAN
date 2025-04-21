@@ -18,7 +18,7 @@ namespace HILL_BEAN
             public FrmBanHang()
             {
                 InitializeComponent();
-                this.BackColor = ColorTranslator.FromHtml("#b9cdcb");
+                this.BackColor = ColorTranslator.FromHtml("#ECEFF1");
             }
         }
     }

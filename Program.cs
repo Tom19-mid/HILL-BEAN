@@ -17,7 +17,7 @@ namespace HILL_BEAN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmHoaDon()); 
+            Application.Run(new FrmGiaoDien("Tân")); 
         }
     }
 }

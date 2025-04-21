@@ -16,26 +16,9 @@ namespace HILL_BEAN
         public FrmKhoHang()
         {
             InitializeComponent();
-            this.BackColor = ColorTranslator.FromHtml("#b9cdcb");
-            MakeRoundPtbHillBean(PtbHillBean, 20);
+            this.BackColor = ColorTranslator.FromHtml("#ECEFF1");
 
         }
 
-        private void MakeRoundPtbHillBean(PictureBox ptbHillBean, int radius)
-        {
-            Rectangle bounds = ptbHillBean.ClientRectangle;
-            GraphicsPath path = new GraphicsPath();
-            int diameter = radius * 2;
-
-            path.AddArc(bounds.X, bounds.Y, diameter, diameter, 180, 90);
-            path.AddArc(bounds.Right - diameter, bounds.Y, diameter, diameter, 270, 90);
-            path.AddArc(bounds.Right - diameter, bounds.Bottom - diameter, diameter, diameter, 0, 90);
-            path.AddArc(bounds.X, bounds.Bottom - diameter, diameter, diameter, 90, 90);
-            path.CloseFigure();
-
-            ptbHillBean.Region = new Region(path);
-
-            ptbHillBean.Invalidate();
-        }
     }
 }

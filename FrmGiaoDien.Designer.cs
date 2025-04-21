@@ -43,11 +43,6 @@
             this.PtbCat = new System.Windows.Forms.PictureBox();
             this.lbXinChao = new System.Windows.Forms.Label();
             this.lbHowAreYou = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -55,7 +50,14 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.btnBanHang = new System.Windows.Forms.Button();
-            this.panelBanHang = new System.Windows.Forms.Panel();
+            this.btnKhuVucBan = new System.Windows.Forms.Button();
+            this.btnHoaDon = new System.Windows.Forms.Button();
+            this.btnNhanVien = new System.Windows.Forms.Button();
+            this.btnKhoHang = new System.Windows.Forms.Button();
+            this.btnThongKeDoanhThu = new System.Windows.Forms.Button();
+            this.lblUsername = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelMain = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.PtbHillBean)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -66,15 +68,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // PtbHillBean
             // 
             this.PtbHillBean.BackColor = System.Drawing.Color.Tan;
             this.PtbHillBean.Image = ((System.Drawing.Image)(resources.GetObject("PtbHillBean.Image")));
-            this.PtbHillBean.Location = new System.Drawing.Point(31, 12);
+            this.PtbHillBean.Location = new System.Drawing.Point(27, 12);
             this.PtbHillBean.Name = "PtbHillBean";
-            this.PtbHillBean.Size = new System.Drawing.Size(97, 84);
+            this.PtbHillBean.Size = new System.Drawing.Size(108, 84);
             this.PtbHillBean.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PtbHillBean.TabIndex = 0;
             this.PtbHillBean.TabStop = false;
@@ -82,10 +85,10 @@
             // lblWelcome
             // 
             this.lblWelcome.AutoSize = true;
-            this.lblWelcome.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcome.Location = new System.Drawing.Point(4, 164);
+            this.lblWelcome.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcome.Location = new System.Drawing.Point(23, 165);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(94, 21);
+            this.lblWelcome.Size = new System.Drawing.Size(112, 24);
             this.lblWelcome.TabIndex = 1;
             this.lblWelcome.Text = "Chào mừng";
             // 
@@ -93,7 +96,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 109);
+            this.label1.Location = new System.Drawing.Point(12, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 24);
             this.label1.TabIndex = 2;
@@ -103,7 +106,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(31, 133);
+            this.label2.Location = new System.Drawing.Point(37, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 24);
             this.label2.TabIndex = 3;
@@ -217,56 +220,6 @@
             this.lbHowAreYou.TabIndex = 14;
             this.lbHowAreYou.Text = "How are you ?";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(541, 88);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(83, 21);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "Sản phẩm";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(739, 88);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(72, 21);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "Hóa đơn";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(931, 88);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(83, 21);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "Nhân viên";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(1110, 88);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(79, 21);
-            this.label13.TabIndex = 19;
-            this.label13.Text = "Kho hàng";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(1258, 88);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(157, 21);
-            this.label14.TabIndex = 20;
-            this.label14.Text = "Thống kê doanh thu";
-            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
@@ -280,7 +233,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(526, 12);
+            this.pictureBox5.Location = new System.Drawing.Point(517, 7);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(112, 68);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -300,7 +253,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(924, 12);
+            this.pictureBox7.Location = new System.Drawing.Point(914, 12);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(100, 63);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -310,7 +263,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(1101, 12);
+            this.pictureBox8.Location = new System.Drawing.Point(1092, 12);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(100, 63);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -338,19 +291,98 @@
             this.btnBanHang.UseVisualStyleBackColor = true;
             this.btnBanHang.Click += new System.EventHandler(this.btnBanHang_Click);
             // 
-            // panelBanHang
+            // btnKhuVucBan
             // 
-            this.panelBanHang.Location = new System.Drawing.Point(158, 123);
-            this.panelBanHang.Name = "panelBanHang";
-            this.panelBanHang.Size = new System.Drawing.Size(1368, 558);
-            this.panelBanHang.TabIndex = 28;
+            this.btnKhuVucBan.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKhuVucBan.Location = new System.Drawing.Point(508, 81);
+            this.btnKhuVucBan.Name = "btnKhuVucBan";
+            this.btnKhuVucBan.Size = new System.Drawing.Size(131, 39);
+            this.btnKhuVucBan.TabIndex = 31;
+            this.btnKhuVucBan.Text = "Khu vực bàn";
+            this.btnKhuVucBan.UseVisualStyleBackColor = true;
+            this.btnKhuVucBan.Click += new System.EventHandler(this.btnKhuVucBan_Click);
+            // 
+            // btnHoaDon
+            // 
+            this.btnHoaDon.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHoaDon.Location = new System.Drawing.Point(713, 81);
+            this.btnHoaDon.Name = "btnHoaDon";
+            this.btnHoaDon.Size = new System.Drawing.Size(118, 39);
+            this.btnHoaDon.TabIndex = 32;
+            this.btnHoaDon.Text = "Hóa đơn";
+            this.btnHoaDon.UseVisualStyleBackColor = true;
+            this.btnHoaDon.Click += new System.EventHandler(this.btnHoaDon_Click);
+            // 
+            // btnNhanVien
+            // 
+            this.btnNhanVien.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNhanVien.Location = new System.Drawing.Point(904, 81);
+            this.btnNhanVien.Name = "btnNhanVien";
+            this.btnNhanVien.Size = new System.Drawing.Size(119, 39);
+            this.btnNhanVien.TabIndex = 33;
+            this.btnNhanVien.Text = "Nhân Viên";
+            this.btnNhanVien.UseVisualStyleBackColor = true;
+            this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
+            // 
+            // btnKhoHang
+            // 
+            this.btnKhoHang.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKhoHang.Location = new System.Drawing.Point(1083, 81);
+            this.btnKhoHang.Name = "btnKhoHang";
+            this.btnKhoHang.Size = new System.Drawing.Size(118, 39);
+            this.btnKhoHang.TabIndex = 34;
+            this.btnKhoHang.Text = "Kho hàng";
+            this.btnKhoHang.UseVisualStyleBackColor = true;
+            this.btnKhoHang.Click += new System.EventHandler(this.btnKhoHang_Click);
+            // 
+            // btnThongKeDoanhThu
+            // 
+            this.btnThongKeDoanhThu.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThongKeDoanhThu.Location = new System.Drawing.Point(1241, 81);
+            this.btnThongKeDoanhThu.Name = "btnThongKeDoanhThu";
+            this.btnThongKeDoanhThu.Size = new System.Drawing.Size(212, 39);
+            this.btnThongKeDoanhThu.TabIndex = 35;
+            this.btnThongKeDoanhThu.Text = "Thống kê doanh thu";
+            this.btnThongKeDoanhThu.UseVisualStyleBackColor = true;
+            this.btnThongKeDoanhThu.Click += new System.EventHandler(this.btnThongKeDoanhThu_Click);
+            // 
+            // lblUsername
+            // 
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.Location = new System.Drawing.Point(27, 7);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(85, 21);
+            this.lblUsername.TabIndex = 0;
+            this.lblUsername.Text = "Username";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.lblUsername);
+            this.panel1.Location = new System.Drawing.Point(0, 192);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(171, 39);
+            this.panel1.TabIndex = 36;
+            // 
+            // panelMain
+            // 
+            this.panelMain.Location = new System.Drawing.Point(170, 123);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(1368, 558);
+            this.panelMain.TabIndex = 28;
             // 
             // FrmGiaoDien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1538, 779);
-            this.Controls.Add(this.panelBanHang);
+            this.ClientSize = new System.Drawing.Size(1552, 779);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.btnThongKeDoanhThu);
+            this.Controls.Add(this.btnKhoHang);
+            this.Controls.Add(this.btnNhanVien);
+            this.Controls.Add(this.btnHoaDon);
+            this.Controls.Add(this.btnKhuVucBan);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.btnBanHang);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -358,11 +390,6 @@
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.lbHowAreYou);
             this.Controls.Add(this.lbXinChao);
             this.Controls.Add(this.PtbCat);
@@ -391,6 +418,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -412,11 +441,6 @@
         private System.Windows.Forms.PictureBox PtbCat;
         private System.Windows.Forms.Label lbXinChao;
         private System.Windows.Forms.Label lbHowAreYou;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
@@ -424,6 +448,13 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Button btnBanHang;
-        private System.Windows.Forms.Panel panelBanHang;
+        private System.Windows.Forms.Button btnKhuVucBan;
+        private System.Windows.Forms.Button btnHoaDon;
+        private System.Windows.Forms.Button btnNhanVien;
+        private System.Windows.Forms.Button btnKhoHang;
+        private System.Windows.Forms.Button btnThongKeDoanhThu;
+        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelMain;
     }
 }
